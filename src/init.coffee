@@ -1,1 +1,2 @@
-
+$ ->
+    renderer = new Renderer()

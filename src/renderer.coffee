@@ -1,3 +1,3 @@
 class Renderer
     constructor: () ->
-        console.log "hello"
+        @viewport = $('body').append("<canvas id='viewport' width=800 height=600>Use a modern browser!</canvas>")
